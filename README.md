@@ -6,4 +6,6 @@ The first step in the treatment of COVID-19 is to screen patients in primary hea
 Our goal was to implement a diagnosis sytem that classifies X-ray and CT images of patient's lungs into 2 categories: Covid and Non-Covid classes.
 
 # About the datasets
-* We used 2 datasets for this project. For implemeting CT-based model, we used [SARS-COV-2](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset) dataset containing 1252 CT scans that are positive for SARS-CoV-2 infection (COVID-19) and 1230 CT scans for patients non-infected by SARS-CoV-2, 2482 CT scans in total.
+We used 2 datasets for this project.
+  * For implemeting CT-based model, we used [SARS-COV-2](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset) ct dataset containing 1252 CT scans that are positive for SARS-CoV-2 infection (COVID-19) and 1230 CT scans for patients non-infected by SARS-CoV-2, 2482 CT scans in total.
+  * For implemeting X-ray-based model, we used [COVID-19 Radiography]([https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database)) database containing 1252 CT scans that are positive for SARS-CoV-2 infection (COVID-19) and 1230 CT scans for patients non-infected by SARS-CoV-2, 2482 CT scans in total.
