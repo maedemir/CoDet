@@ -14,4 +14,9 @@ We used 2 datasets for this project.
 ## Methodology
 ### CNN
 The CNN-based deep neural system is widely used in the medical classification task. [CNN](https://towardsdatascience.com/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc) is an excellent feature extractor, therefore utilizing it to classify medical images can avoid complicated and expensive feature engineering. 
-BUT instead of building a CNN model from scratch, We used pre-trained models and used [transfer learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
+BUT instead of building a CNN model from scratch, We used pre-trained models and [transfer learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) to train our model. 
+Basically our job to make a prediction model is done in these 4 steps:
+- Loading and Visualizing the Dataset
+- Data Pre-Processing
+- Buliding & Training our Model Using Pre-traind Models
+- Save and Evaluate the model
