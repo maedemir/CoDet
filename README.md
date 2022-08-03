@@ -19,19 +19,19 @@ BUT instead of building a CNN model from scratch, We used pre-trained models and
 We used 3 pre-trained models for both datasets tp trian our model
 1. [VGG16](https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c)
 
-[<img width="400" alt="image" src="https://user-images.githubusercontent.com/72692826/182526626-ae106b18-f71b-4a56-b61f-8fc78d0205f4.png">](https://www.researchgate.net/publication/321829624/figure/fig2/AS:571845657481217@1513350037610/VGG16-architecture-16.png)
+[<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/182526626-ae106b18-f71b-4a56-b61f-8fc78d0205f4.png">](https://www.researchgate.net/publication/321829624/figure/fig2/AS:571845657481217@1513350037610/VGG16-architecture-16.png)
 
 2. [VGG19](https://iq.opengenus.org/vgg19-architecture/#:~:text=VGG19%20is%20a%20variant%20of,VGG19%20has%2019.6%20billion%20FLOPs.)
 
-[<img width="400" alt="image" src="https://user-images.githubusercontent.com/72692826/182526495-774a3816-36a6-4f9b-94e9-838f760782a0.png">](https://www.researchgate.net/figure/llustration-of-the-network-architecture-of-VGG-19-model-conv-means-convolution-FC-means_fig2_325137356)
+[<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/182526495-774a3816-36a6-4f9b-94e9-838f760782a0.png">](https://www.researchgate.net/figure/llustration-of-the-network-architecture-of-VGG-19-model-conv-means-convolution-FC-means_fig2_325137356)
 
 3. [InceptionV3](https://medium.com/@AnasBrital98/inception-v3-cnn-architecture-explained-691cfb7bba08)
 
-[<img width="430" alt="image" src="https://user-images.githubusercontent.com/72692826/182527742-c723f4d4-d322-4203-bbd8-8de0b585a77a.png">](https://production-media.paperswithcode.com/methods/inceptionv3onc--oview_vjAbOfw.png)
+[<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/182527742-c723f4d4-d322-4203-bbd8-8de0b585a77a.png">](https://production-media.paperswithcode.com/methods/inceptionv3onc--oview_vjAbOfw.png)
 
 4. [Resnet50](https://cv-tricks.com/keras/understand-implement-resnets/)
 
-[<img width="687" alt="image" src="https://user-images.githubusercontent.com/72692826/182528482-18a8f8c7-0888-40b1-83e5-51bc641a833c.png">](https://www.researchgate.net/figure/The-architecture-of-ResNet-50-model_fig4_349717475)
+[<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/182528482-18a8f8c7-0888-40b1-83e5-51bc641a833c.png">](https://www.researchgate.net/figure/The-architecture-of-ResNet-50-model_fig4_349717475)
 
 
 
