@@ -15,6 +15,19 @@ We used 2 datasets for this project.
 ### CNN
 The CNN-based deep neural system is widely used in the medical classification task. [CNN](https://towardsdatascience.com/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc) is an excellent feature extractor, therefore utilizing it to classify medical images can avoid complicated and expensive feature engineering. 
 BUT instead of building a CNN model from scratch, We used pre-trained models and [transfer learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) to train our model. 
+### Which models did we use?
+We used 3 pre-trained models for both datasets tp trian our model
+1. [VGG16](https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c)
+
+2. [VGG19]()
+3. 
+[<img width="635" alt="image" src="https://user-images.githubusercontent.com/72692826/182526495-774a3816-36a6-4f9b-94e9-838f760782a0.png">](https://www.researchgate.net/figure/llustration-of-the-network-architecture-of-VGG-19-model-conv-means-convolution-FC-means_fig2_325137356)
+
+3. [InceptionV3]()
+
+4. [Resnet50]()
+
+
 Basically our job to make a prediction model is done in these 4 steps:
 - Loading and Visualizing the Dataset
 - Data Pre-Processing
