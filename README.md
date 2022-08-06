@@ -44,5 +44,10 @@ Basically our job to make a prediction model is done in these 4 steps:
 
 ## Results
 ### CXR Dataset 
-
+- VGG16
+- VGG19
+- InceptionV3
 ### CT Dataset
+- VGG16
+- VGG19
+- ResNet50
