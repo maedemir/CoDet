@@ -40,3 +40,8 @@ Basically our job to make a prediction model is done in these 4 steps:
 - Data Pre-Processing
 - Buliding & Training our Model Using Pre-traind Models
 - Save and Evaluate the model
+
+## Results
+### CXR Dataset 
+
+### CT Dataset
