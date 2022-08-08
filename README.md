@@ -50,9 +50,35 @@ Basically our job to make a prediction model is done in these 4 steps:
 ## Results
 ### CT Dataset 
 - VGG16
+
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183387982-192dc048-9d68-4517-b8ea-c4ccb96a1df7.png">
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183388054-b1a3e9ff-c3fb-4ae1-89ec-19e28b16d8cb.png">
+
 - VGG19
+
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183388221-832b8861-454d-4281-9b3e-0a4cd304f702.png">
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183388263-46aa2e2b-87f4-406e-a697-bd89f2615174.png">
+
 - InceptionV3
+
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183388522-2a2d8b65-8473-46c6-bf3b-43573a5a8c48.png">
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183388570-e3a2f4fc-0bfd-43cc-86cd-4d08de5c052c.png">
+
 ### CXR Dataset 
 - VGG16
+
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183388678-79c9d536-5103-407a-a5a6-fcd999599acc.png">
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183388713-499dbc94-e6a6-44f9-9e4b-e90f858c3545.png">
+
 - VGG19
+
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183388860-6c5c6f72-9223-47e0-b593-6af2ebdbbbf2.png">
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183388896-d5adb5f7-d0aa-44e6-a70c-b41c8447a772.png">
+
 - ResNet50
+
