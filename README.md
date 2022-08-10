@@ -82,3 +82,9 @@ Basically our job to make a prediction model is done in these 4 steps:
 
 - ResNet50
 
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183943004-ad73aba4-1b80-4e22-90f2-db367fa281f4.png">
+
+
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183943072-240ce606-2963-4709-b93a-d93ec01d7147.png">
+
+
