@@ -44,7 +44,7 @@ We used 3 pre-trained models for both datasets tp trian our model
 Basically our job to make a prediction model is done in these 4 steps:
 - Loading and Visualizing the Dataset
 - Data Pre-Processing
-- Buliding & Training our Model Using Pre-traind Models
+- Buliding & Training our Model Using Pre-traind Models (fine-tuning is done in 20 epoch with batch size of 32)
 - Save and Evaluate the model
 
 ## Results
