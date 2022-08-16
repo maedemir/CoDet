@@ -88,3 +88,29 @@ Basically our job to make a prediction model is done in these 4 steps:
 <img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183943072-240ce606-2963-4709-b93a-d93ec01d7147.png">
 
 
+## Flask application
+We've developed a flask app to use our models easily.
+In this app we provide some information about project and you can also send messages to us.
+We've tried to create simple and beautiful UI that you can easily find what you want.
+### How to run locally
+1. You need to download this repository.
+
+2. Open "libraries.txt" and install Necessary libraries (if you don't have them)
+
+3. You need to download our models.
+- To download our models use these links :
+
+CT-scan : https://drive.google.com/drive/folders/1L9NXbpr_ya6T29J6YGvIyVIl15ZZwBEn
+
+X-ray : https://drive.google.com/drive/folders/1MJuHUZGhgL6rv8_TViR3XKbrm2BZ4bmW
+
+Copy all model files (like ResNet50_CXR_model.h5) and paste them into model folder in flask folder.
+For example you should copy ResNet50_CXR_model.h5 and paste it in model/resnet50 in flask folder.
+
+4. To run the project you have to run this command in the project folder : flask run
+
+Then you have to paste this address in your browser : http://127.0.0.1:5000
+
+### Another way to run the project
+There is another way to use our application.
+You can also visit this link and use our application :

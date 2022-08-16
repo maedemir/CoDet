@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="assets/css/result.css">
+      <link rel="stylesheet" href="assets/css/shadow.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Mulish:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="assets/js/nav.js"></script>
+      <title>CoDet</title>
+  </head>
+
+  <body>   
+    <div class = "background_div">
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="detect.html">Detect COVID-19</a>
+        <a href="project.html">About CoDet</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact us</a>
+        <a href="https://news.google.com/search?q=covid" target=”_blank”>News</a>
+        <a class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    
+      <table class="center">
+        <tr>
+          <td>
+            <div id="container">
+              <div class="card shadow-6">
+                <div class="card__details">
+                  <img src="assets/images/detect.jpg">
+                  <div class="name">Covid Detection Result</div>
+
+                  <table class="blue center_inside center">
+                    <thead>
+                      <tr>
+                        <th style="font-family: 'Righteous', cursive;">Model</th>
+                        <th style="font-family: 'Righteous', cursive;">Result</th>
+                      </tr>
+                    </thead>
+                    <tbody>    
+                    {% for item in data %}
+                    <tr>
+                      <td style="border:2px solid rgb(148, 200, 253);">{{item.model}}</td>
+                      <td style="border:2px solid rgb(148, 200, 253);">{{item.result}}</td>
+                    </tr>  
+                    {% endfor %}                   
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
