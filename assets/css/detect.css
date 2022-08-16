@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html{
+    height: 100%;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  background-color:hsla(60,4%,55%,1);
+  background-image:
+  radial-gradient(at 14% 24%, hsla(242,81%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 11% 16%, hsla(125,86%,68%,1) 0px, transparent 50%),
+  radial-gradient(at 40% 63%, hsla(205,91%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 95%, hsla(251,87%,68%,1) 0px, transparent 50%);
+}
+
+.background_div{
+  background-color:hsla(60,4%,55%,1);
+  background-image:
+  radial-gradient(at 14% 24%, hsla(242,81%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 11% 16%, hsla(125,86%,68%,1) 0px, transparent 50%),
+  radial-gradient(at 40% 63%, hsla(205,91%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 95%, hsla(251,87%,68%,1) 0px, transparent 50%);
+  height:fit-content;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 65px;
+}
+
+#container1 {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 0vh;
+    margin: -25px 0 0 -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container2 {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 0vh;
+    margin: -25px 0 0 -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: white;
+    /* height: 650px; */
+    height: fit-content;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+  
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+  
+p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+.center_file{
+  display:block; 
+  margin-left:80px;
+  margin-top: 30px;
+  max-width: 250px;
+}
+
+.submit {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  color: #8a5aab;
+  background-color: rgb(204, 205, 207);
+  display: block;
+  cursor: pointer;
+  font-family: 'Righteous', cursive;
+}
+  
+@media(max-width: 900px) {
+  td {
+    display: block;
+    margin-bottom: 50px;
+  }
+  
+}
+
+.card__details {
+  padding: 16px 8px 8px 8px;
+}
+
+#inputType_ct{
+  height: 30px;
+  max-width: 850/2px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-family: 'Mulish', sans-serif;
+}
+
+#inputType_x{
+  height: 30px;
+  max-width: 850/2px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.submit:focus,.submit:hover {
+  background-color: #8a5aab;
+  color: rgb(204, 205, 207);
+}
+
+
+.topnav {
+  background-color: rgba(255, 255, 255, .30);   
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  font-family: 'Righteous', cursive;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #8a5aab;
+  color: #e0efff;
+  border-radius: 12px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

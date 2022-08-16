@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html{
+  height: 100%;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+height: 100%;
+margin: 0px;
+font-family: "Raleway", sans-serif;
+}
+
+.background_div{
+  background-color:#ffb199;
+  background-image:
+  radial-gradient(at 66% 4%, hsla(201,69%,48%,1) 0px, transparent 50%),
+  radial-gradient(at 78% 76%, hsla(210,98%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 39% 94%, hsla(24,98%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 49% 54%, hsla(176,99%,62%,1) 0px, transparent 50%);
+  text-align: justify;
+  text-justify: inter-word;
+}
+.link{
+  margin-top: 15px;
+  font-size: 16px;
+  color: #4e719a;
+  line-height: 150%;
+  font-family: 'Mulish', sans-serif;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 65px;
+}
+
+li {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+#container {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 0vh;
+    margin: -25px 0 0 -25px;
+    text-align: justif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: white;
+    /* height: 650px; */
+    height: fit-content;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+}
+  
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
+}
+
+.name2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-family: 'Righteous', cursive;
+}
+  
+p {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #7f8c9b;
+  line-height: 150%;
+font-family: 'Mulish', sans-serif;
+}
+  
+.card__details {
+  padding: 16px 8px 8px 8px;
+}
+
+.topnav {
+  background-color: rgba(255, 255, 255, .30);   
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  font-family: 'Righteous', cursive;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #d77411;
+  color: #e0efff;
+  border-radius: 12px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

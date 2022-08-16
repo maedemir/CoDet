@@ -1,0 +1,8 @@
+Necessary libraries :
+
+flask
+tensorflow
+keras
+numpy
+cv2 (open-cv)
+matplotlib

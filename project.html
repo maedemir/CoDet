@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="assets/css/project.css">
+      <link rel="stylesheet" href="assets/css/shadow.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Mulish:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="assets/js/nav.js"></script>
+      <title>CoDet</title>
+  </head>
+
+  <body>   
+    <div class = "background_div">
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="detect.html">Detect COVID-19</a>
+        <a href="project.html">About CoDet</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact us</a>
+        <a href="https://news.google.com/search?q=covid" target=”_blank”>News</a>
+        <a class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    
+      <table class="center">
+        <tr>
+          <td>
+            <div id="container">
+              <div class="card shadow-6">
+                <div class="card__details">
+                  <img src="assets/images/codet.jpg">
+                  <div class="name">CoDet, COVID-19 Detector</div>
+                  <p>
+                    The first step in the treatment of COVID-19 is to screen patients in primary health centers or hospitals. Although the final diagnosis still relies mainly on transcription-polymerase chain reaction (PCR) tests, in case of people with strong respiratory symptoms the election protocol nowadays in hospitals relays on medical imaging, as it is simple and fast, thus helping doctors to identify diseases and their effects more quickly. Following this protocol, patients that are suspected to suffer COVID-19 undergoes first an X-Ray session and then, in the case that more details are needed, they take a CT-scan session. As a result of this protocol, computed tomography scan (CT scan) and X-ray images are being widely used on the clinic as alternative diagnostic tools for detecting COVID-19.
+                    <br/>Our goal was to implement a diagnosis sytem that classifies X-ray and CT images of patient's lungs into 2 categories: Covid and Non-Covid classes.<br/>
+                  </p>
+                <div class="name2">How does it work?!</div>
+                <p>
+                  Basically, There is a Neural Network behind our system.<br/>
+                  We have trained several models like VGG16, VGG19, InceptionV3 with 2482 CT images(1252 CT scans that are positive for SARS-CoV-2 infection and 1230 CT scans for patients non-infected by SARS-CoV-2). After training, when you upload a CT image or an X-Ray image, our Model (whatever you want) calculate two values.
+                  Maximum of these values is our result.<br/>
+                  For more details please see <a href="https://github.com/maedemir/App-Based-Covid-Detection-Using-CT-and-XRay-Images" target=”_blank” class = "link">this repository</a>.
+                </p>
+                <div class="name2">Is it accurate?!</div>
+                <p>
+                  We have tried as hard as possible to increase accuracy of our models.<br/>
+                  For example our VGG16 model can detect Covid-19 correctly from CT images in more than 92% of cases.
+                  <b style="color: red;">Warning</b> : If you sence that you may have Covid-19, you should visit a doctor quickly!
+                </p>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
