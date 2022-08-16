@@ -48,7 +48,31 @@ Basically our job to make a prediction model is done in these 4 steps:
 - Save and Evaluate the model
 
 ## Results
-### CT Dataset 
+### Metrics
+- Precision
+
+The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the number of false positives. The precision is intuitively the ability of the classifier not to label a negative sample as positive.
+
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/72692826/184919263-9b9718a0-06e5-4db3-a302-5a44b6c61b41.png">
+
+- F1-score
+
+The F1-score combines the precision and recall of a classifier into a single metric by taking their harmonic mean. It is primarily used to compare the performance of two classifiers.
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/72692826/184919662-966c7a26-4435-4c16-a76f-14a5243269eb.png">
+
+- Recall
+
+The recall is the ratio tp / (tp + fn) where tp is the number of true positives and fn the number of false negatives. The recall is intuitively the ability of the classifier to find all the positive samples.
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/72692826/184919477-671c9798-2fb6-4669-9800-b22241a9bca0.png">
+
+- Support
+
+The support is the number of occurrences of each class in y_true.
+
+### Results of CT Dataset 
 - VGG16
 
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183387982-192dc048-9d68-4517-b8ea-c4ccb96a1df7.png">
@@ -67,7 +91,7 @@ Basically our job to make a prediction model is done in these 4 steps:
 
 <img width="390" alt="image" src="https://user-images.githubusercontent.com/72692826/183388570-e3a2f4fc-0bfd-43cc-86cd-4d08de5c052c.png">
 
-### CXR Dataset 
+### Results of CXR Dataset 
 - VGG16
 
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/72692826/183388678-79c9d536-5103-407a-a5a6-fcd999599acc.png">
