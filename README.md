@@ -119,27 +119,26 @@ The support is the number of occurrences of each class in y_true.
 
 
 ## Flask application
-We've developed a flask app to use our models easily.
-In this app we provide some information about project and you can also send messages to us.
-We've tried to create simple and beautiful UI that you can easily find what you want.
+We've developed a flask application for you to use our models easily. We've tried to create a simple and beautiful UI that you can easily find what you want.
+
+To use our models, select your CT-Scan/X-Ray image and model on the detect page of the application.
+
 ### How to run locally
-1. You need to download this repository.
+1. Download this repository.
 
 2. Open "libraries.txt" and install Necessary libraries (if you don't have them)
 
-3. You need to download our models.
-- To download our models use these links :
+3. Download our models for [CT-Scan](https://drive.google.com/drive/folders/1L9NXbpr_ya6T29J6YGvIyVIl15ZZwBEn) and [X-Ray](https://drive.google.com/drive/folders/1MJuHUZGhgL6rv8_TViR3XKbrm2BZ4bmW)
 
-CT-scan : https://drive.google.com/drive/folders/1L9NXbpr_ya6T29J6YGvIyVIl15ZZwBEn
+4. Copy model files (like ResNet50_CXR_model.h5) and paste them into the proper folder in the project folder/model
+For example, you should copy ResNet50_CXR_model.h5 and paste it into model/resnet50 in the project folder
 
-X-ray : https://drive.google.com/drive/folders/1MJuHUZGhgL6rv8_TViR3XKbrm2BZ4bmW
+5. Run the following command in the Project folder using Terminal
+```
+flask run
+```
 
-Copy all model files (like ResNet50_CXR_model.h5) and paste them into model folder in flask folder.
-For example you should copy ResNet50_CXR_model.h5 and paste it in model/resnet50 in flask folder.
-
-4. To run the project you have to run this command in the project folder : flask run
-
-Then you have to paste this address in your browser : http://127.0.0.1:5000
+6. Paste http://127.0.0.1:5000 in your browser
 
 ### Another way to run the project
 There is another way to use our application.
