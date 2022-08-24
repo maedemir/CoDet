@@ -139,7 +139,3 @@ flask run
 ```
 
 6. Paste http://127.0.0.1:5000 in your browser
-
-### Another way to run the project
-There is another way to use our application.
-You can also visit this link and use our application :
