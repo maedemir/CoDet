@@ -22,11 +22,10 @@ We used two datasets for this project.
  * Note that due to computational limitations, we only used the first 1200 images of each class from the previously mentioned CXR dataset.
 
 
-
 ## Methodology
 ### CNN
-The CNN-based deep neural system is widely used in the medical classification task. [CNN](https://towardsdatascience.com/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc) is an excellent feature extractor, therefore utilizing it to classify medical images can avoid complicated and expensive feature engineering. 
-BUT instead of building a CNN model from scratch, We used pre-trained models and [transfer learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) to train our model. 
+The CNN-based deep neural system is widely used in the medical classification task. [CNN](https://towardsdatascience.com/a-gentle-introduction-to-neural-networks-series-part-1-2b90b87795bc) is an excellent feature extractor; Therefore, utilizing it to classify medical images can avoid complicated and expensive feature engineering. 
+But instead of building a CNN model from scratch, We used pre-trained models and [transfer learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) to train our model. 
 ### Which models did we use?
 We used 3 pre-trained models for both datasets tp trian our model
 1. [VGG16](https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c)
