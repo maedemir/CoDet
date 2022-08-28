@@ -46,18 +46,17 @@ We used 3 pre-trained models for both datasets tp trian our model
 
 
 
-Basically our job to make a prediction model is done in these 4 steps:
+Basically our job to make a prediction model is done in these four steps:
 - Loading and Visualizing the Dataset
 - Data Pre-Processing
-- Buliding & Training our Model Using Pre-traind Models (fine-tuning is done in 20 epoch with batch size of 32)
+- Building & Training our Model Using Pre-trained Models (fine-tuning is done in 20 epochs with a batch size of 32
 - Save and Evaluate the model
 
 ## Results
 ### Metrics
 - Precision
 
-The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the number of false positives. The precision is intuitively the ability of the classifier not to label a negative sample as positive.
-
+The precision is the ratio tp / (tp + fp), where tp is the number of true positives and fp is the number of false positives. The precision is intuitively the ability of the classifier not to label a negative sample as positive.
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/72692826/184919263-9b9718a0-06e5-4db3-a302-5a44b6c61b41.png">
 
@@ -69,7 +68,7 @@ The F1-score combines the precision and recall of a classifier into a single met
 
 - Recall
 
-The recall is the ratio tp / (tp + fn) where tp is the number of true positives and fn the number of false negatives. The recall is intuitively the ability of the classifier to find all the positive samples.
+The recall is the ratio tp / (tp + fn), where tp is the number of true positives and fn is the number of false negatives. The recall is intuitively the ability of the classifier to find all the positive samples.
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/72692826/184919477-671c9798-2fb6-4669-9800-b22241a9bca0.png">
 
