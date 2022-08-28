@@ -15,10 +15,12 @@ The first step in the treatment of COVID-19 is to screen patients in primary hea
 
 
 # About the datasets
-We used 2 datasets for this project.
-  * For implemeting CT-based model, we used [SARS-COV-2](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset) ct dataset containing 1252 CT scans that are positive for SARS-CoV-2 infection (COVID-19) and 1230 CT scans for patients non-infected by SARS-CoV-2, 2482 CT scans in total.
-  * For implemeting X-ray-based model, we used [COVID-19 Radiography](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset) database.
-  * Note that due to comutational limitations, we only used first 1200 images of each class from previously mentioned CXR dataset
+
+We used two datasets for this project.
+  * For implementing the CT-based model, we used the [SARS-COV-2](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset) ct dataset containing 1252 CT scans that are positive for SARS-CoV-2 infection (COVID-19) and 1230 CT scans for patients non-infected by SARS-CoV-2, 2482 CT scans in total.
+  * For implementing an X-ray-based model, we used the [COVID-19 Radiography](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset) dataset.
+ * Note that due to computational limitations, we only used the first 1200 images of each class from the previously mentioned CXR dataset.
+
 
 
 ## Methodology
