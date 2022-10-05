@@ -117,21 +117,21 @@ The support is the number of occurrences of each class in y_true.
 
 
 ## Flask application
-We've developed a flask application for you to use our models easily. We've tried to create a simple and beautiful UI that you can easily find what you want.
+We've developed a flask application for you to use our models easily. We've tried to create a simple and beautiful UI so that you can easily find what you want.
 
 To use our models, select your CT-Scan/X-Ray image and model on the detect page of the application.
 
 ### How to run locally
-1. Download this repository.
+1. Download this repository
 
-2. Open "libraries.txt" and install Necessary libraries (if you don't have them)
+2. Open "libraries.txt" and install the necessary libraries (if you don't have them)
 
 3. Download our models for [CT-Scan](https://drive.google.com/drive/folders/1L9NXbpr_ya6T29J6YGvIyVIl15ZZwBEn) and [X-Ray](https://drive.google.com/drive/folders/1MJuHUZGhgL6rv8_TViR3XKbrm2BZ4bmW)
 
 4. Copy model files (like ResNet50_CXR_model.h5) and paste them into the proper folder in the project folder/model
 For example, you should copy ResNet50_CXR_model.h5 and paste it into model/resnet50 in the project folder
 
-5. Run the following command in the Project folder using Terminal
+5. Run the following command in the project folder using terminal
 ```
 flask run
 ```
